@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar color="primary">    
+      <ion-buttons>              	
+     <ion-title><ion-img alt="logo" slot="start"
+        src="assets/icon/72 × 72 (hdpi).png"></ion-img><h1>XpSerV</h1></ion-title>    
+      </ion-buttons>   
+        
+              <ion-buttons slot="end">
+                <ion-menu-button autoHide="false"><ion-icon name="more"></ion-icon></ion-menu-button>
+              </ion-buttons>
+                
+    </ion-toolbar>
+  </ion-header>
+  
+        
+      
+  
+<ion-content padding> 
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center class="logo-card">
+        <ion-img alt="logo"  src="assets/icon/logo.png"></ion-img> 
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
+      <h1><b>Now Let's Choose <br> your service</b></h1>
+<ion-list>
+  <ion-list-header><h3>Select Your Preferences</h3></ion-list-header>
+
+  <ion-item>
+    <ion-label>Repairs</ion-label>
+    <ion-select multiple="true" cancelText="Cancel" okText="Okay!">
+      <ion-select-option value="one">Ac</ion-select-option>
+      <ion-select-option value="two">Electrical</ion-select-option>
+      <ion-select-option value="three">Plumbing</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Service Type</ion-label>
+    <ion-select multiple="true">
+      <ion-select-option value="1" selected>Install</ion-select-option>
+      <ion-select-option value="2">Uninstall</ion-select-option>
+      <ion-select-option value="3" selected>Repair</ion-select-option>
+      <ion-select-option value="4" selected>Dry Service</ion-select-option>
+      <ion-select-option value="5" selected>Wet Service</ion-select-option>
+      <ion-select-option value="6" selected>Gas Re-fill</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <br>
+  <br>
+  <ion-button text-center (click)="thanksMsg()" class="submit-btn" type="submit">CONTINUE</ion-button>
+  
+</ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>    
+</ion-content>
+<!----<ion-footer (click)="logout()">
+  <ion-toolbar color="secondary">
+    <ion-title>Log out</ion-title>
+  </ion-toolbar>
+</ion-footer>-->

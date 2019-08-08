@@ -1,0 +1,25 @@
+<ion-app>
+  <ion-menu-toggle>
+    <ion-menu contentId="content1" side="end">        
+          <ion-header>
+            <ion-toolbar color="primary">
+              <ion-title>Preferences</ion-title>              
+            </ion-toolbar>
+          </ion-header>
+          <ion-content>
+              <ion-list>
+                  <ion-item>Add Technicians</ion-item>
+                  <ion-item>Add Customers</ion-item>
+                  <ion-item>Add Materials</ion-item>
+                  <ion-item>Settings</ion-item>
+                  <ion-item><ion-button (click)="logout()">
+                    <ion-icon slot="end" name="log-out"></ion-icon>Log Out</ion-button>
+                  </ion-item>            
+                </ion-list>
+          </ion-content>
+         
+        </ion-menu>
+      </ion-menu-toggle> 
+        <ion-router-outlet id="content1" main></ion-router-outlet>  
+        <!----<ion-router-outlet></ion-router-outlet>-->
+</ion-app>

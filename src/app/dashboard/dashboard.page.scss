@@ -1,0 +1,24 @@
+logo-card{
+    		margin-left: auto;
+    		margin-right: auto;
+    		display: block;
+		}
+        ion-img {
+			object-fit: resize;
+			height: 100%;
+			width: 40%;
+            margin: auto;
+            display: block;
+			background-color: white;
+		}
+
+		//ion-content {
+			//--background: url('/assets/icon/splashscreen_2.png') no-repeat 110% 100%;
+		//}
+		ion-title {
+			line-height: 40px;
+			//padding-left: 50px;
+		   // background: url('/assets/icon/72 × 72 (hdpi).png') no-repeat left;
+		}
+		
+		

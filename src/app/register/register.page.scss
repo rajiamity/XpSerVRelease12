@@ -1,0 +1,19 @@
+.logotitle{
+    width:175px;    
+    height:83px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+//ion-content {
+    //--background: url('/assets/icon/splashscreen_2.png') no-repeat 110% 100%;
+//}
+ion-img {
+    object-fit: resize;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    display: block;
+    background-color: white;
+    
+}

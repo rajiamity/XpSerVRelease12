@@ -1,0 +1,31 @@
+.logotitle{
+    width:72px;    
+    height:72px;
+    display: block;    
+    //margin-left: auto;
+   // margin-right: auto; 
+}
+ion-img {
+    object-fit: resize;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    display: block;
+    background-color: white;
+}
+
+.welcome-card{
+    border: 1px solid blue;
+    padding: 20px;
+    
+}
+//ion-content {
+  //  --background: url('/assets/icon/splashscreen_2.png') no-repeat 20% 100%;
+//}
+
+ion-title {
+    line-height: 40px;
+    //padding-left: 50px;
+   // background: url('/assets/icon/72 × 72 (hdpi).png') no-repeat left;
+
+}
